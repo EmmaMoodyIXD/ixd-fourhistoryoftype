@@ -1,0 +1,238 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/*------ This manipulates everything in the document. -----*/
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+/*------ This manipulates everything in the body. -----*/
+body {
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+  background: #fafafa;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+}
+
+/*---- This manipulates headings one, two and three. ----*/
+h1, h2, h3 {
+  font-weight: normal;
+  color: #05CE7C;
+  text-align: center;
+  font-weight: 700;
+}
+
+/*---- This manipulates paragraph texts - adding a sans-serif font. ----*/
+p {
+  margin-bottom: 1.5em;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*---- This manipulates heading one's font size and margin. ----*/
+h1 {
+  font-size: 3.3em;
+  margin-top: 2em;
+  margin-bottom: 0.1em;
+}
+
+/*---- This manipulates heading two's font size and margin. ----*/
+h2 {
+  font-size: 1.999em;
+  margin: 3em 0 1em 0
+}
+
+/*---- This manipulates heading three's font size and margin. ----*/
+h3 {
+  font-size: 1.414em;
+  margin-bottom: 1.5em;
+}
+
+/*---- This manipulates text that is highlighted in bold - the weight will be 600. ----*/
+b, strong {
+  font-weight: 600
+}
+
+/*---- This manipulates quoted text's font weight and line height. ----*/
+blockquote {
+  font-weight: 100;
+  line-height: 1.2
+}
+
+/*---- This manipulates quoted text's font size, weight and colour. ---*/
+blockquote {
+  font-size: 1.414em;
+  hanging-punctuation: first;
+  text-indent: -0.44em;
+  color: #05CE7C;
+  font-weight: 700;
+}
+
+/*---- This manipulates quoted text's cite's colour and font size. ---*/
+blockquote cite {
+  font-size: 0.75em;
+  color: #333
+}
+
+/*---- This manipulates the heading two in header. ---*/
+header h2 {
+  font-weight: 100;
+  font-style: italic;
+  margin-top: 0.5em
+}
+
+/*---- This manipulates the unordered navigation list. ---*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em 0;
+}
+
+/*---- This manipulates the unordered list and the indivual navigation list items.  ---*/
+ul li {
+  margin: 10px;
+}
+
+/*---- This manipulates the class - "list-indent". ---*/
+.list-indent {
+  margin-left: 2em;
+}
+
+/*---- This manipulates the class - "list-head". ---*/
+.list-head {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*---- This manipulates the class - "red". ---*/
+.red {
+  background: orangered
+}
+
+/*---- This manipulates all the links on the website.---*/
+a {
+  color: #05CE7C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #05CE7C;
+  border-bottom: 1px dotted;
+}
+
+/*---- This manipulates the navigation system. ---*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #05CE7C;
+  padding: .5em 0;
+  font-size: 0.75em;
+  box-shadow: 0 0 10px 0 black;
+}
+
+nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+  background: none;
+}
+
+nav a:link {
+  color: #fafafa;
+}
+
+nav a:visited {
+  color: #fafafa;
+}
+
+nav a:hover {
+  border-bottom: none;
+  color: #007aff;
+}
+
+/*---- This manipulates the class - "baskerville". ---*/
+.baskerville {
+  background: #333;
+  color: #fafafa;
+  padding: 2em 0;
+}
+
+.baskerville h2 {
+  color: coral
+}
+
+/*---- This manipulates the table. ---*/
+table {
+  margin: auto;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+/*---- This manipulates the caption. ---*/
+caption {
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+}
+
+/*---- This manipulates the table heading. ---*/
+th {
+  color: #fafafa;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: left;
+  background: rgb(120, 143, 4);
+}
+
+/*---- This manipulates the table heading and the table data. ---*/
+th, td {
+  padding: .6em
+}
+
+/*---- This manipulates the table and it's table data. ---*/
+table, td {
+  background: rgb(212, 222, 164);
+  border: 1px solid #fafafa
+}
+
+/*---- This manipulates the images. ---*/
+img {
+  display: block;
+  margin: 3em auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+/*---- This manipulates the footer. ---*/
+footer {
+  text-align: center;
+  font-size: 0.707em;
+  padding: 2em 0 4em 0
+}
+
+/*---- These are media queries. When the screen size is reduced, the background colour changes from white to black and the paragraph text colour changes to white. ---*/
+@media (max-width: 50em) {
+  body {
+    background: black;
+    color: white;
+  }
+}
