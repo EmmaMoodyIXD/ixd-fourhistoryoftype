@@ -10,7 +10,7 @@ Applied my first CSS styling and added Navigation System and links.
 
 
 <a href="https://emmamoodyixd.github.io/ixd-fourhistoryoftype/3_fourhistoryoftype-third_version.html" target="_blank" title="Four History of Type - Third Version"><b>Version 3 </b></a><br>
-Added Google Fonts and manipulated header and other extra details to the site.
+Added a different Google Font to the site.
 
 
 <a href="https://emmamoodyixd.github.io/ixd-fourhistoryoftype/4_fourhistoryoftype-fourth_version.html" target="_blank" title="Four History of Type - Fourth Version"><b>Version 4 </b></a><br>
